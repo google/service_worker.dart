@@ -1,13 +1,13 @@
-name: sample
+name: service_worker
 version: 0.0.1
-description: A sample library.
-author: Foo Bar <foobar@example.com>
-homepage: https://github.com/google/sample
+description: An implementation of service workers
+author: Dart Team <misc@dartlang.org>
+homepage: https://github.com/google/service_worker.dart
 
 environment:
   sdk: '>=1.0.0 <2.0.0'
 
-#dependencies:
-#  lib_name: any
+dependencies:
+  browser: any
 dev_dependencies:
-  unittest: any
+  unittest: '>=0.10.0 <0.12.0'

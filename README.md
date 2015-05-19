@@ -2,6 +2,8 @@
 
 An implementation of the basic Service Worker protocol.
 
+Important note: Does not actually work at all yet.
+
 ## Usage
 
 A simple usage example:
